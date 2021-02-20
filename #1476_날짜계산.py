@@ -22,3 +22,4 @@
 E, S, M = map(int, input().split())
 
 for i in range(7981):
+ 
