@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T11:02:04.991Z" agent="5.0 (Windows)" version="14.4.4" etag="gLg_yBFID_sghpp5yMxE" type="github"><diagram id="6T9eGF71wkgtFz_kcDLE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-15T10:43:31.969Z" agent="5.0 (Windows)" etag="NxSoZF8gM56sXwiBL_4T" version="14.4.5" type="github">
+  <diagram id="6T9eGF71wkgtFz_kcDLE" name="Page-1">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r351MGJim_kMG_XgxbtN-1" value="Elevator Manger" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r351MGJim_kMG_XgxbtN-21" target="r351MGJim_kMG_XgxbtN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.37;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r351MGJim_kMG_XgxbtN-3" target="r351MGJim_kMG_XgxbtN-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="275" />
+              <mxPoint x="304" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-3" value="&lt;div&gt;ElevatorManger(controller conter:Int)&lt;/div&gt;&lt;div&gt;requestElevator(destination: int, direction:Direction):void&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-5" value="ElevatorController" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="110" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-6" value="&lt;div&gt;id:int&lt;/div&gt;&lt;div&gt;curFloor:int&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="740" y="140" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-7" value="&lt;div&gt;ElevatorController(id:Int)&lt;/div&gt;&lt;div&gt;gotoFloor(destination: int):void&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="740" y="170" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-8" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ElevatorScheduler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-9" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-10" value="selectElevator(manager: ElevatorManager, destination:int, direction:Direction):int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="r351MGJim_kMG_XgxbtN-11" target="r351MGJim_kMG_XgxbtN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-11" value="&lt;div&gt;ThroughputScheduler&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="580" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-12" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="610" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-13" value="selectElevator(manager: ElevatorManager, destination:int, direction:Direction):int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="640" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.809;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r351MGJim_kMG_XgxbtN-14" target="r351MGJim_kMG_XgxbtN-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="510" />
+              <mxPoint x="510" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-14" value="&lt;div&gt;ResponseTimeSchduler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="650" y="580" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-15" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="650" y="610" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-16" value="selectElevator(manager: ElevatorManager, destination:int, direction:Direction):int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="650" y="640" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-21" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=cross-hatch;fillColor=#006600;sketch=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r351MGJim_kMG_XgxbtN-2" target="r351MGJim_kMG_XgxbtN-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="155" as="sourcePoint" />
+            <mxPoint x="740" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-23" value="- controllers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-24" value="1..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-25" value="Strategy" style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-26" value="작업처리량 최대화 전략" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r351MGJim_kMG_XgxbtN-27" value="대기시간 최소화 전략" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="690" width="230" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
