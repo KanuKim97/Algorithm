@@ -1,5 +1,4 @@
-# Algorithm
- ### Description
+# Description
   - 알고리즘, SQL 풀이 Repository입니다.
   - [Programmers](https://programmers.co.kr/) 에서 문제를 풀었습니다!
   - 알고리즘 풀이는 주로 Python을 사용했습니다.
