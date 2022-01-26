@@ -4,7 +4,7 @@
   - [Programmers](https://programmers.co.kr/) 에서 문제를 풀었습니다!
   - 알고리즘 풀이는 주로 Python을 사용했습니다.
  ## Algorithm 
-  - Level 1
+  - [Level 1](https://github.com/KanuKim97/Algorithm/tree/main/level1)
     - 2016년
     - 가운데 글자 가져오기
     - 나머지가 1이 되는 수 찾기 
@@ -29,17 +29,17 @@
     - 핸드폰 번호 가리기
     - K번째 수 
     - x 만큼 간격이 있는 n개의 숫자 
-  - Level 2
+  - [Level 2](https://github.com/KanuKim97/Algorithm/tree/main/level2)
     - 기능개발
     - 더 맵게
     - H-Index
 ## SQL 
-  - Level 1
+  - [Level 1](https://github.com/KanuKim97/Algorithm/tree/main/sql/level1)
     - 상위 n개의 레코드 
     - 여러 기준으로 정렬하기 
     - 이름없는 동물의 ID 
     - 이름있는 동물의 ID
-  - Level 2
+  - [Level 2](https://github.com/KanuKim97/Algorithm/tree/main/sql/level2)
     - 고양이와 개는 몇마리 있을까
     - 동명 동물 수 찾기
     - 동물의 수 구하기
@@ -48,3 +48,8 @@
     - 최솟값 구하기
     - DATATIME 에서 DATE로 형변환
     - NULL처리하기
+    - 루시와 엘라 찾기
+    - 이름에 el이 들어가는 동물 찾기
+    - 중복 제거하기
+  - [Level 3](https://github.com/KanuKim97/Algorithm/tree/main/sql/level3)
+    - 있었는데요 없었습니다
