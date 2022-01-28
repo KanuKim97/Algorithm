@@ -32,6 +32,8 @@
     - 기능개발
     - 더 맵게
     - H-Index
+    - 다음 큰 숫자
+    - 최솟값 만들기
 ## SQL 
   - [Level 1](https://github.com/KanuKim97/Algorithm/tree/main/sql/level1)
     - 상위 n개의 레코드 
