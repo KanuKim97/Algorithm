@@ -52,3 +52,10 @@
     - 중복 제거하기
   - [Level 3](https://github.com/KanuKim97/Algorithm/tree/main/sql/level3)
     - 있었는데요 없었습니다
+    - 없어진 기록 찾기
+    - 오랜기간 보호한 동물(1)
+    - 오랜기간 보호한 동물(2)
+    - 헤비 유저가 소유한 장소
+  - [Level 4](https://github.com/KanuKim97/Algorithm/tree/main/sql/level4)
+    - 보호소에서 중성화한 동물
+    - 우유와 요거트가 담긴 장바구니 
