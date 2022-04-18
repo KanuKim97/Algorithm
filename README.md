@@ -65,6 +65,6 @@
     - 우유와 요거트가 담긴 장바구니 
 
 # LeetCode
- ## Algorithms
+ ### Algorithms
  - [Easy](https://github.com/KanuKim97/Algorithm/tree/main/leetCode/Easy)
  - [Medium](https://github.com/KanuKim97/Algorithm/tree/main/leetCode/Medium)
