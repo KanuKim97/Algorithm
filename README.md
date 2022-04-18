@@ -1,8 +1,10 @@
 # Description
   - 알고리즘, SQL 풀이 Repository입니다.
-  - [Programmers](https://programmers.co.kr/) 에서 문제를 풀었습니다!
+  - [Programmers](https://programmers.co.kr/) 와 [LeetCode](https://leetcode.com/)에서 문제를 풀었습니다!
   - 알고리즘 풀이는 주로 Python을 사용했습니다.
- ## Algorithm 
+
+# Programmers
+ ### Algorithm
   - [Level 1](https://github.com/KanuKim97/Algorithm/tree/main/level1)
     - 2016년
     - 가운데 글자 가져오기
@@ -34,7 +36,7 @@
     - H-Index
     - 다음 큰 숫자
     - 최솟값 만들기
-## SQL 
+### SQL 
   - [Level 1](https://github.com/KanuKim97/Algorithm/tree/main/sql/level1)
     - 상위 n개의 레코드 
     - 여러 기준으로 정렬하기 
@@ -61,3 +63,8 @@
   - [Level 4](https://github.com/KanuKim97/Algorithm/tree/main/sql/level4)
     - 보호소에서 중성화한 동물
     - 우유와 요거트가 담긴 장바구니 
+
+# LeetCode
+ ## Algorithms
+ - [Easy](https://github.com/KanuKim97/Algorithm/tree/main/leetCode/Easy)
+ - [Medium](https://github.com/KanuKim97/Algorithm/tree/main/leetCode/Medium)
