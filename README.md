@@ -36,7 +36,7 @@
     - H-Index
     - 다음 큰 숫자
     - 최솟값 만들기
-### SQL 
+### SQL(2022.04.19기준 전체 풀이 완료)
   - [Level 1](https://github.com/KanuKim97/Algorithm/tree/main/sql/level1)
     - 상위 n개의 레코드 
     - 여러 기준으로 정렬하기 
